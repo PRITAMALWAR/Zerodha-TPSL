@@ -1,16 +1,41 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Zerodha TPSL & MT Copy Bot (Frontend)
 
-Currently, two official plugins are available:
+React + Vite + Tailwind v4. Clean, fast, and responsive UI for configuring TPSL inputs and monitoring trades.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## React Compiler
+## Highlights
+- **Inputs** for Spot, Futures, Options, and MT Copy with enable/disable toggles.
+- **Tabbed tables** for SLTP Trades and MT Copy Trades.
+- **Tailwind CSS v4** via `@tailwindcss/vite` (no config needed).
+- **React Router** for Main, History, Logs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Quick start
+```bash
+npm install
+npm run dev
+# open the URL shown by Vite (usually http://localhost:5173)
+```
 
-## Expanding the ESLint configuration
+## Scripts
+- `npm run dev` — start Vite dev server
+- `npm run build` — production build
+- `npm run preview` — preview built app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project structure
+```
+src/
+  components/   # Sidebar, Header, InputCard, TradesTable
+  pages/        # Main, History, Logs
+  data/         # config.json (default input values)
+  App.css       # imports Tailwind: @import "tailwindcss";
+```
+
+## Notes
+- Tailwind is loaded by importing `src/App.css` in `src/main.jsx`.
+- Default input states live in `src/data/config.json`.
+
+---
+Made with React 19, Vite 7, and Tailwind 4.
