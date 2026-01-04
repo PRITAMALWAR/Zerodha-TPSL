@@ -1,0 +1,30 @@
+{
+  "spot": {
+    "enabled": true,
+    "profit1": 1.25,
+    "profit2": 8,
+    "profit3": 12,
+    "stopLoss": 12
+  },
+  "futures": {
+    "enabled": true,
+    "profit1": 5.25,
+    "profit2": 10,
+    "profit3": 15,
+    "stopLoss": 10
+  },
+  "options": {
+    "enabled": true,
+    "profit1": 7.5,
+    "profit2": 17.5,
+    "profit3": 27.5,
+    "stopLoss": 30
+  },
+  "mtcopy": {
+    "enabled": true,
+    "profit1": 5.25,
+    "profit2": 5.25,
+    "profit3": 5.25,
+    "stopLoss": 5.25
+  }
+}

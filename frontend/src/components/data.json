@@ -1,0 +1,26 @@
+{
+  "Spot": {
+    "Profit_1_percent": 1.25,
+    "Profit_2_percent": 8,
+    "Profit_3_percent": 12,
+    "Stop_Loss_percent": 12
+  },
+  "Futures": {
+    "Profit_1_percent": 5.25,
+    "Profit_2_percent": 10,
+    "Profit_3_percent": 15,
+    "Stop_Loss_percent": 10
+  },
+  "Options": {
+    "Profit_1_percent": 7.5,
+    "Profit_2_percent": 17.5,
+    "Profit_3_percent": 27.5,
+    "Stop_Loss_percent": 30
+  },
+  "MT_Copy": {
+    "Profit_1_percent": 5.25,
+    "Profit_2_percent": 5.25,
+    "Profit_3_percent": 5.25,
+    "Stop_Loss_percent": 5.25
+  }
+}
